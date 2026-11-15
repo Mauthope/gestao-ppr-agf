@@ -168,21 +168,21 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       codigo: "AGF-USI-01",
       nome: "Usinagem & Molduraria",
       descricao: "Portas, batentes, guarnições e rodapés — Planta 1",
-      position: { x: 460, y: 120 },
+      position: { x: 460, y: 140 },
     },
     {
       id: "setor_acabamento",
       codigo: "AGF-ACA-02",
       nome: "Acabamento & Pintura UV",
       descricao: "Lixamento, primer, laqueação UV e embalagem final",
-      position: { x: 460, y: 780 },
+      position: { x: 460, y: 980 },
     },
     {
       id: "setor_geral",
       codigo: "AGF-GER-00",
       nome: "Coordenação Geral da Fábrica",
       descricao: "Resultado integrado dos setores produtivos AGF",
-      position: { x: 460, y: 1380 },
+      position: { x: 460, y: 1740 },
     },
   ],
   desafios: [
@@ -265,7 +265,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
         sincronizacaoAutomatica: true,
         ultimaSincronizacao: "08:00:12",
       },
-      position: { x: 40, y: 20 },
+      position: { x: 40, y: -40 },
     },
     {
       id: "ind_usi_oper_ef",
@@ -275,7 +275,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       valorApurado: 84,
       unidade: "%",
       metaReferenciaLabel: "Ref. 80% = R$ 450,00",
-      position: { x: 40, y: 170 },
+      position: { x: 40, y: 175 },
     },
     {
       id: "ind_usi_qual",
@@ -297,7 +297,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
         sincronizacaoAutomatica: true,
         ultimaSincronizacao: "08:00:14",
       },
-      position: { x: 40, y: 320 },
+      position: { x: 40, y: 390 },
     },
     {
       id: "ind_usi_he",
@@ -319,7 +319,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
         sincronizacaoAutomatica: true,
         ultimaSincronizacao: "08:00:15",
       },
-      position: { x: 40, y: 470 },
+      position: { x: 40, y: 605 },
     },
     {
       id: "ind_usi_faltas",
@@ -329,7 +329,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       valorApurado: 0,
       unidade: "%",
       metaReferenciaLabel: "Zero faltas (+10,0%)",
-      position: { x: -290, y: 170 },
+      position: { x: -310, y: 70 },
     },
     {
       id: "ind_usi_atrasos",
@@ -339,7 +339,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       valorApurado: 0.45,
       unidade: "%",
       metaReferenciaLabel: "Até 0,50% (+5,0%)",
-      position: { x: -290, y: 320 },
+      position: { x: -310, y: 285 },
     },
     {
       id: "ind_usi_5s",
@@ -349,7 +349,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       valorApurado: 96,
       unidade: "%",
       metaReferenciaLabel: "Ref: 90% (0%) | >96% (+5%)",
-      position: { x: -290, y: 470 },
+      position: { x: -310, y: 500 },
     },
 
     // ACABAMENTO & PINTURA UV
@@ -361,7 +361,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       valorApurado: 81,
       unidade: "%",
       metaReferenciaLabel: "Ref. 80% = Antigo 100%",
-      position: { x: 40, y: 710 },
+      position: { x: 40, y: 890 },
     },
     {
       id: "ind_aca_qual",
@@ -371,7 +371,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       valorApurado: 2.38,
       unidade: "%",
       metaReferenciaLabel: "Ref: 2,46% a 2,50% (0%)",
-      position: { x: 40, y: 860 },
+      position: { x: 40, y: 1105 },
     },
     {
       id: "ind_aca_he",
@@ -381,7 +381,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       valorApurado: 2.4,
       unidade: "%",
       metaReferenciaLabel: "Ref: 2,51% a 3,00% (0%)",
-      position: { x: 40, y: 1010 },
+      position: { x: 40, y: 1320 },
     },
     {
       id: "ind_aca_faltas",
@@ -391,7 +391,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       valorApurado: 1.2,
       unidade: "%",
       metaReferenciaLabel: "0,51% a 1,50% (+5,0%)",
-      position: { x: -290, y: 780 },
+      position: { x: -310, y: 890 },
     },
     {
       id: "ind_aca_atrasos",
@@ -401,7 +401,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       valorApurado: 0.9,
       unidade: "%",
       metaReferenciaLabel: "0,51% a 1,00% (+2,5%)",
-      position: { x: -290, y: 930 },
+      position: { x: -310, y: 1105 },
     },
     {
       id: "ind_aca_5s",
@@ -411,7 +411,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       valorApurado: 92,
       unidade: "%",
       metaReferenciaLabel: "91% a 95% (+2,5%)",
-      position: { x: -290, y: 1080 },
+      position: { x: -310, y: 1320 },
     },
 
     // LÍDER GERAL
@@ -423,7 +423,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       valorApurado: 83,
       unidade: "%",
       metaReferenciaLabel: "Ref. 80% = R$ 1.200,00",
-      position: { x: 40, y: 1310 },
+      position: { x: 40, y: 1650 },
     },
     {
       id: "ind_ger_qual",
@@ -433,7 +433,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       valorApurado: 2.25,
       unidade: "%",
       metaReferenciaLabel: "Ref: 2,46% a 2,50% (0%)",
-      position: { x: 40, y: 1460 },
+      position: { x: 40, y: 1865 },
     },
     {
       id: "ind_ger_he",
@@ -443,7 +443,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       valorApurado: 2.1,
       unidade: "%",
       metaReferenciaLabel: "Ref: 2,51% a 3,00% (0%)",
-      position: { x: -290, y: 1310 },
+      position: { x: -310, y: 1650 },
     },
     {
       id: "ind_ger_faltas",
@@ -453,7 +453,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       valorApurado: 0.5,
       unidade: "%",
       metaReferenciaLabel: "0,01% a 0,50% (+7,5%)",
-      position: { x: -290, y: 1460 },
+      position: { x: -310, y: 1865 },
     },
     {
       id: "ind_ger_atrasos",
@@ -463,7 +463,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       valorApurado: 0.75,
       unidade: "%",
       metaReferenciaLabel: "0,51% a 1,00% (+2,5%)",
-      position: { x: -290, y: 1610 },
+      position: { x: -310, y: 2080 },
     },
     {
       id: "ind_ger_5s",
@@ -473,7 +473,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       valorApurado: 94,
       unidade: "%",
       metaReferenciaLabel: "91% a 95% (+2,5%)",
-      position: { x: 40, y: 1610 },
+      position: { x: 40, y: 2080 },
     },
   ],
   classes: [
@@ -516,7 +516,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
           fechadoEm: "2026-11-03",
         },
       ],
-      position: { x: 1120, y: 360 },
+      position: { x: 1120, y: 410 },
     },
     {
       id: "cls_aca_lideres",
@@ -527,7 +527,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       desafioId: "des_aca_lider",
       turnos: ["1º Turno", "2º Turno"],
       historicoSemestral: [],
-      position: { x: 1120, y: 780 },
+      position: { x: 1120, y: 980 },
     },
     {
       id: "cls_geral_lider",
@@ -538,7 +538,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       desafioId: "des_geral_lider",
       turnos: ["Turno Geral"],
       historicoSemestral: [],
-      position: { x: 1120, y: 1380 },
+      position: { x: 1120, y: 1740 },
     },
   ],
   colaboradores: [
@@ -564,7 +564,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       horasTrabalhadasMes: 204,
       ajusteIndividualPct: 5,
       ajusteIndividualJustificativa: "Setup recorde nas seccionadoras",
-      position: { x: 1560, y: 210 },
+      position: { x: 1560, y: 230 },
     },
     {
       id: "col_3",
@@ -575,7 +575,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       turno: "1º Turno",
       horasPrevistasMes: 220,
       horasTrabalhadasMes: 220,
-      position: { x: 1560, y: 420 },
+      position: { x: 1560, y: 460 },
     },
     {
       id: "col_4",
@@ -586,7 +586,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       turno: "1º Turno",
       horasPrevistasMes: 220,
       horasTrabalhadasMes: 220,
-      position: { x: 1560, y: 780 },
+      position: { x: 1560, y: 980 },
     },
     {
       id: "col_5",
@@ -597,7 +597,7 @@ export const AGF_SEED_STATE: PPRDatabaseState = {
       turno: "Turno Geral",
       horasPrevistasMes: 220,
       horasTrabalhadasMes: 220,
-      position: { x: 1560, y: 1380 },
+      position: { x: 1560, y: 1740 },
     },
   ],
   fechamentos: [],
